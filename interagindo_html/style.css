@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.button_start_style {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin: 70px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 2px 1px 1px black;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.button_start_style:hover {
+    transition: ease-in-out 300ms;
+    background-color: mediumblue;
+
+}
+
+.text {
+    padding: 50px;
+    width: 250px;
+    height: 50px;
+    margin: 35px;
+}
